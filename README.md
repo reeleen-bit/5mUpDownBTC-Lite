@@ -1,43 +1,69 @@
-# 5mUpDownBTC — Live Price to Beat tracker for Polymarket
+# 5mUpDownBTC
 
-A free, browser-based tool for Polymarket's **5-minute Up/Down** crypto markets (BTC, ETH, SOL, XRP, DOGE, BNB, HYPE).
+**Read the market like a pro.**
 
-It tracks the exact price each market settles on — captured from the same live Chainlink feed
-Polymarket itself uses to resolve these markets — and displays it alongside a live candlestick chart,
-so you always know the level price needs to clear before the window closes.
+Polymarket's 5-minute Up/Down markets move fast: BTC, ETH, SOL, XRP, DOGE, BNB and HYPE all settle
+every 5 minutes against a live Chainlink price. Blink and you've missed the Price to Beat.
+5mUpDownBTC tracks it for you, live, on the exact same feed Polymarket itself resolves on — so you
+always know the level price needs to clear before the window closes.
 
-**Live demo:** https://pro.5mupdownbtc.com/cryptor-free.html
-**Full product page:** https://www.5mupdownbtc.com/
+**Try it free, right now:** https://pro.5mupdownbtc.com/cryptor-free.html
+**Get PRO:** https://www.5mupdownbtc.com/
+**PRO user manual (PDF):** https://18fef2f3-3349-469f-96e6-3f6f0186f1aa.usrfiles.com/ugd/18fef2_f9993e7353634cc0a242d0c643e13d23.pdf
 
-## What it does
+No sign-up required to try Lite. No spam, ever.
 
-- **Live Price to Beat**, updated automatically at every new 5-minute window, for all seven markets
-- **Live candlestick chart** with moving averages (MA7/25/99)
-- **Session history**, captured server-side around the clock — even if you weren't watching
-- Runs entirely in the browser — no install, no account, no sign-up
+---
+
+## Lite vs PRO
+
+| Feature | Lite | PRO |
+|---|:---:|:---:|
+| **Included in both** | | |
+| Exact Price to Beat, all 7 markets | ✔ | ✔ |
+| Live market sync (always the current 5-min window) | ✔ | ✔ |
+| Drawing tools (trend lines, notes) | ✔ | ✔ |
+| Vertical price-axis zoom | ✔ | ✔ |
+| Lifetime updates, delivered automatically | ✔ | ✔ |
+| **Chart control — PRO** | | |
+| Chart resolution | 2s only | 1s → 1D (13 timeframes) |
+| Horizontal pan / time zoom | — | ✔ |
+| Moving averages (MA7 / MA25 / MA99) | — | ✔ |
+| Session markers | — | ✔ |
+| **Decision tools — PRO** | | |
+| 10 previous Price to Beat levels, plottable | — | ✔ |
+| Statistical projection with uncertainty band | — | ✔ |
+| Live Polymarket odds & edge | — | ✔ |
+| Volume & anomaly alerts | — | ✔ |
+| Pattern & correlation analysis | — | ✔ |
+| Historical market insights | — | ✔ |
+
+One-time payment, lifetime access. No subscription.
+
+**Get PRO:** https://www.5mupdownbtc.com/
+**Read the full manual before you start:** https://18fef2f3-3349-469f-96e6-3f6f0186f1aa.usrfiles.com/ugd/18fef2_f9993e7353634cc0a242d0c643e13d23.pdf
+
+---
 
 ## What's in this repo
 
-This repo contains the **free (Lite)** build only: `cryptor-free.html`, a single self-contained file
-(no build step, no external dependencies beyond public APIs). Open it directly in a browser, or host
-it anywhere that serves static HTML.
-
-A paid **PRO** version exists with additional tools (more timeframes, chart drawing tools,
-support/resistance, statistical projection, full session history, and more) — see the product page
-for details.
+`cryptor-free.html` — the Lite build above, as a single self-contained file. No build step, no
+external dependencies beyond public APIs (Polymarket's live feed, Binance for chart history). Open
+it directly in a browser, or host it anywhere that serves static HTML.
 
 ## How it works, briefly
 
 - Live prices and the Price to Beat come from Polymarket's public RTDS WebSocket feed
-  (`wss://ws-live-data.polymarket.com`), the same relay Polymarket's own site uses.
+  (`wss://ws-live-data.polymarket.com`) — the same relay Polymarket's own site uses to display and
+  resolve these markets.
 - Chart history comes from Binance's public REST API.
-- No API key or backend is required to run the free build as-is.
+- No API key or backend required to run this build as-is.
 
 ## Disclaimer
 
-This is a data and analysis tool. It does not provide investment advice, recommendations, or
-performance guarantees. Prediction markets carry a risk of total loss of the amount staked. Always
-do your own research.
+5mUpDownBTC is a data and analysis tool. Everything it displays — projections, scores, signals and
+alerts — is indicative only and is never financial advice. Prediction markets carry a risk of total
+loss of the amount staked. Always do your own research before placing any trade.
 
 ## License
 
