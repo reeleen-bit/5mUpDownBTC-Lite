@@ -1,11 +1,13 @@
-# 5mUpDownBTC
+# 5mUpDownBTC — Live Price to Beat Tracker for Polymarket 5-Minute Crypto Markets
 
 **Read the market like a pro.**
 
-Polymarket's 5-minute Up/Down markets move fast: BTC, ETH, SOL, XRP, DOGE, BNB and HYPE all settle
-every 5 minutes against a live Chainlink price. Blink and you've missed the Price to Beat.
-5mUpDownBTC tracks it for you, live, on the exact same feed Polymarket itself resolves on — so you
-always know the level price needs to clear before the window closes.
+A free, real-time **Polymarket** price tracker for the **5-minute Up/Down crypto prediction markets**
+on **BTC, ETH, SOL, XRP, DOGE, BNB and HYPE**. These markets settle every 5 minutes against a live
+**Chainlink** price feed — blink and you've missed the **Price to Beat**. 5mUpDownBTC tracks it for
+you, live, on the exact same feed Polymarket itself resolves on, with a full **candlestick chart**,
+**moving averages**, and early-warning **trading signals** — so you always know the level price needs
+to clear before the window closes.
 
 **Try it free, right now:** https://pro.5mupdownbtc.com/cryptor-free.html
 **Get PRO:** https://www.5mupdownbtc.com/
